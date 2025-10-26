@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding-top: 100px;
+    background-image: url("SU\ Hall.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.navbar {
+    position: fixed;
+    top: 0;
+    overflow: visible;
+    background-color: rgb(240, 22, 22);
+    width: 100%;
+    color: white;
+    border: 2px solid black;
+}
+
+div.aboutme {
+    background-color: rgb(250, 235, 215, 0.9);
+    width: 80%;
+    height: 500px;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 15px;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+div.centered {
+    text-align: center;
+}
+
+a:link, a:visited{
+    color: white;
+}
+
+a:hover {
+    background-color: white;
+    color: red;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: right;
+  padding-right: 40px;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+h1.main-title {
+    font-size: 50px;
+    font-family: Verdana;
+    background-color: rgb(240, 22, 22); 
+    display: inline-block;
+    border-radius: 25px;
+    padding: 20px;
+    color: white;
+}
