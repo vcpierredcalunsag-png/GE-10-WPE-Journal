@@ -6,7 +6,7 @@ const galleries = {
         ],
     gallery2: [ //AV pictures
         "img/AV1.jpg",
-        "img/AV2.png"
+        "img/AV2.PNG"
         ],
     gallery3: [ // Badminton Pictures
         "img/Badminton1.jpg",
