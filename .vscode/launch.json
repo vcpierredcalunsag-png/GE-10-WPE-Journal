@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/Codi/Documents/GitHub/GE-10-WPE-Journal",
+      "program": "/Users/Codi/Documents/GitHub/GE-10-WPE-Journal/build/Debug/outDebug"
+    }
+  ]
+}

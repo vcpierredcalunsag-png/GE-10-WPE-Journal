@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding-top: 100px;
-    background-image: url("SU\ Hall.png");
+    background-image: url("img/SU\ Hall.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -18,15 +18,33 @@ div.navbar {
     border: 2px solid black;
 }
 
-div.aboutme {
+div.maindiv {
     background-color: rgb(250, 235, 215, 0.9);
     width: 80%;
-    height: 500px;
+    height: 1000px;
     border-radius: 50px;
     margin: auto;
     margin-top: 15px;
     border: 2px solid black;
-    padding: 15px;
+}
+
+div.rowcontainer {
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {float    : left;}
+.right {text-align: right;}
+
+div.colcontainer {
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+}
+
+div.left {
+    text-align: left;
 }
 
 div.centered {
@@ -68,3 +86,20 @@ h1.main-title {
     padding: 20px;
     color: white;
 }
+
+.gallery {
+    float: right;
+    margin: 30px auto;
+    padding: 10px;
+}
+button {
+    margin: 5px;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+
+img.images  {
+    width: 400px;
+}
+
+
