@@ -100,6 +100,12 @@ const galleries = {
         "img/Chess3.jpg",
         "img/Chess4.jpg"
         ],
+    gallery22: [ // About Me
+        "img/cousins.png",
+        "img/Bowdie.png",
+        "img/graduation.png",
+        "img/jprom.png"
+        ],
 };
 
 // Track current index for each gallery
