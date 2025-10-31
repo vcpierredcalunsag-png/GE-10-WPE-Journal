@@ -3,6 +3,8 @@
     <head> 
         <Title>My WPE Journal</Title>
         <link rel = "stylesheet" type = "text/css" href = "Style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
     </head>
     <body>
         <div class = "navbar">
@@ -19,6 +21,22 @@
         <h1 class = "main-title">
             Welcome to My WPE Journal!
         </h1>
+    </div>
+
+    <div class = "maindiv rowcontainer">
+        <div class="colcontainer">
+            <h1>About Me</h1> <!--6-->
+            <p>
+            </p>
+        </div>
+        <div class="colcontainer">
+                <!-- GALLERY 10 -->
+            <div class="gallery">
+                <img class="images" id="gallery10" src="img/Genesis1.jpg"> <br>
+                <button onclick="prevImage('gallery10')">Previous</button>
+                <button onclick="nextImage('gallery10')">Next</button>
+            </div>
+        </div>
     </div>
 
     <script src="Script.js"></script>
